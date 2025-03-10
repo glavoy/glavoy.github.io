@@ -49,6 +49,25 @@
     .panel.open {
       opacity: 1;
     }
+    .donate-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff5722, #e64a19);
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.donate-btn:hover {
+  background: linear-gradient(90deg, #e64a19, #c41c00);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
   </style>
 </head>
 <body>
@@ -68,8 +87,9 @@
     <a href="donate.html">Donate</a>
   </nav>
   <main>
-    <a href="#">Donate</a>
+    <a href="donate.html" class="donate-btn">Donate</a>
     <h2>About Our Initiative</h2>
+    
     <p>Click on the sections below to learn more about our building initiative.</p>
 
     <button class="accordion">Our Mission</button>
